@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+body{
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0%;
+    overflow: hidden;
+    background-color: #C2B8A3;
+    position: absolute;
+}
+@media screen and (max-width:900px) and (min-width:300px){
+    body{
+        overflow: scroll;
+       
+    }
+    #top{
+        position: fixed;
+        bottom: 0%;
+    }
+}
+#top{
+    position: fixed;
+    bottom: 0%;
+}
+#my-watch{
+    color:#00EAD3;
+    font-size: 27px;
+    font-weight: bolder;
+    font-family: 'Montserrat', 'Source Sans Pro';
+    transform: translateX(168px) translateY(150px);
+    position: sticky;
+    top: 100px;
+}
+#watch-img{
+
+   max-width: 50vh;
+   margin-top: 0%;
+   text-align: center;
+   padding-bottom: 20px;
+}
+img{
+    padding-bottom: 10%;
+    height: 500px;
+    margin-top: 0%;
+}
+#btn-color{
+    transform: translateX(600px) translateY(300px);
+}
+h1{
+    color: #362222;
+}
+h3{
+    color: #262A53;
+}
+#btn-black{
+    height: 30px;
+    width: 50px;
+    background-color: #23211f;
+    margin-right: 10px;
+    color: #23211f;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: #23211f;
+}
+#btn-blue{
+    height: 30px;
+    width: 50px;
+    background-color: #565681;
+    margin-right: 10px;
+    color: #565681;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: #565681;
+}
+#btn-red{
+    height: 30px;
+    width: 50px;
+    background-color: #ca3d22;
+    margin-right: 10px;
+    color: #ca3d22;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: #ca3d22;
+}
+#btn-purple{
+    height: 30px;
+    width: 50px;
+    background-color: #8a5362;
+    margin-right: 10px;
+    color: #8a5362;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: #8a5362;
+}
+#btn-pink{
+    height: 30px;
+    width: 50px;
+    background-color:  #e9c7be;
+    margin-right: 10px;
+    color:  #e9c7be;
+    cursor: pointer;
+    border-radius: 10px;
+    border-color: #e9c7be;
+}
